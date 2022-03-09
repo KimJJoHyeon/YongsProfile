@@ -1,0 +1,65 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>반갑습니다. 정형용입니다.</title>
+	<style type="text/css">
+		section{
+			text-align: center;
+		}
+	
+		img{
+			border:2px solid black;
+			margin:0 auto;
+			width: 500px;
+			height: 500px;
+		}
+		article.fotter{
+			width:55%;
+			text-align: left;
+			border: 1px dashed black;
+		}
+		div.fot{
+			padding:10px;
+			font-size: 17px;
+			font-family: "궁서";
+			font-weight:600;
+			margin-bottom: 5px;
+		
+		}
+		button{
+			margin-bottom:10px;
+			width: 30px;
+			height: 30px;
+		}
+	</style>
+</head>
+<body>
+	<header><h2>안녕하세요. 정형용입니다.</h2></header>
+	<section>
+		<article class = "content">
+			<div class="main">
+				<img alt="" src="Hy1.jpg">
+			</div>
+				<div>
+					<button name ="left"> << </button>
+					<button name ="rigth"> >> </button>
+				</div>
+		</article>
+		<article class="fotter">
+			<div id="name"class ="fot">
+				* 이름 : 정형용(Hyeong Yong Jung)
+			</div>
+			<div id="born"class ="fot">
+				* 출생 : 전라북도 고창군 무장면
+			</div>
+			<div id="sal"class ="fot">
+				* 후원계좌: 3333-06-049-1190 <span style="color:#CDDC39;">카카오</span>뱅크
+			</div>
+		</article>
+	</section>
+
+</body>
+</html>
